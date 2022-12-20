@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "create_tweet.js"
+     },
   "dependencies": {
     "got": "^12.5.3",
     "needle": "^3.2.0",
