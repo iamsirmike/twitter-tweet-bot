@@ -1,10 +1,51 @@
 {
-  "scripts": {
-    "start": "create_tweet.js"
-     },
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "create.js",
   "dependencies": {
+    "cacheable-lookup": "^7.0.0",
+    "cacheable-request": "^10.2.3",
+    "debug": "^3.2.7",
+    "decompress-response": "^6.0.0",
+    "defer-to-connect": "^2.0.1",
+    "form-data-encoder": "^2.1.4",
+    "get-stream": "^6.0.1",
     "got": "^12.5.3",
+    "http-cache-semantics": "^4.1.0",
+    "http2-wrapper": "^2.2.0",
+    "iconv-lite": "^0.6.3",
+    "json-buffer": "^3.0.1",
+    "keyv": "^4.5.2",
+    "lowercase-keys": "^3.0.0",
+    "memcached": "^2.2.2",
+    "mimic-response": "^4.0.0",
+    "ms": "^2.1.3",
     "needle": "^3.2.0",
-    "oauth-1.0a": "^2.2.6"
-  }
+    "normalize-url": "^8.0.0",
+    "oauth-1.0a": "^2.2.6",
+    "p-cancelable": "^3.0.0",
+    "quick-lru": "^5.1.1",
+    "redis": "^4.5.1",
+    "resolve-alpn": "^1.2.1",
+    "responselike": "^3.0.0",
+    "safer-buffer": "^2.1.2",
+    "sax": "^1.2.4"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node create.js",
+    "watch": "create.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamsirmike/twitter-tweet-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamsirmike/twitter-tweet-bot/issues"
+  },
+  "homepage": "https://github.com/iamsirmike/twitter-tweet-bot#readme"
 }
